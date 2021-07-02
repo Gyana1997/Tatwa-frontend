@@ -1,0 +1,37 @@
+.addTransportSec {
+    margin-top:8%;
+}
+
+.addTransBtnSec {
+    text-align: right;
+}
+.addTransBtn {
+    background-color: #1C2A48;
+    color: #fff;
+    padding: 10px;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.tablecls {
+    background: #fff;
+    margin-top:2%;
+    box-shadow: 0px 21px 41px -13px rgb(0 0 0 / 18%);
+    padding-left: 20px;
+    padding-right: 20px !important;
+    padding-bottom: 20px !important;
+}
+.headStyle {
+    background-color: #1C2A48;
+    color:#fff;
+    font-weight: 300 !important;
+}
+.editBtn {
+    cursor: pointer;
+    font-size: 15px;
+}
+.deleteBtn {
+    color: red;
+    margin-left: 25px;
+    cursor: pointer;
+    font-size: 15px;
+}

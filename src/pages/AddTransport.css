@@ -1,0 +1,51 @@
+.card {
+    border: 1px solid #dddfe2;
+    margin-top: 15%;
+    border-radius: 3px;
+    background-color: #fff;
+    box-shadow: 0px 21px 41px -13px rgb(0 0 0 / 18%);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.formSection{
+	padding: 5px;
+}
+
+.formrow{
+	padding-top: 30px;
+}
+.labeltext{
+	font-weight: 400;
+	font-size: 13px;
+	margin-bottom: 5px;
+}
+.labelclass {
+	margin-top: -5px;
+	font-size: 13px;
+	font-weight: 400;
+	margin-left: 10px;
+}
+.eventFormBtn {
+	padding-top: 8px !important;
+	padding-bottom: 8px !important;
+	border-radius: 2px !important;
+	font-size: 13px !important;
+	font-weight: 400;
+	color: #fff !important;
+	background-color: #007bff !important;
+	cursor: pointer;
+	margin-right: 20px;
+	
+	padding-left: 12px !important;
+	padding-right: 12px !important;
+	float: right;
+	
+}
+.btnSection{
+	
+	padding-top: 20px;
+}

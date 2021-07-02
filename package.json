@@ -1,0 +1,74 @@
+{
+  "name": "tatwa-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/react-fontawesome": "^0.1.3",
+    "@material-ui/core": "^4.11.4",
+    "axios": "^0.21.1",
+    "bootstrap": "^5.0.1",
+    "chart.js": "^2.9.4",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.14.0",
+    "enzyme-to-json": "3.4.0",
+    "react": "^16.4.0",
+    "react-bootstrap": "^0.32.4",
+    "react-canvas-draw": "^1.1.1",
+    "react-chartkick": "^0.3.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^5.0.7",
+    "react-router": "^4.3.1",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^4.0.8",
+    "react-scripts": "^4.0.3",
+    "redux": "^4.0.0",
+    "redux-form": "^7.4.2",
+    "redux-immutable-state-invariant": "^2.1.0",
+    "redux-mock-store": "^1.5.4",
+    "redux-persist": "^5.10.0",
+    "redux-thunk": "^2.3.0",
+    "sane-email-validation": "^2.0.0",
+    "valid-url": "^1.0.9"
+  },
+  "scripts": {
+    "start": "PORT=3006 react-scripts start",
+    "build": "react-scripts build",
+    "eject": "react-scripts eject",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "jest": {
+    "setupTestFrameworkScriptFile": "<rootDir>/__tests__/setup/setupEnzyme.js",
+    "testPathIgnorePatterns": [
+      "<rootDir>/node_modules"
+    ],
+    "transform": {
+      "^.+\\.js$": "babel-jest"
+    },
+    "snapshotSerializers": [
+      "enzyme-to-json/serializer"
+    ],
+    "testMatch": [
+      "<rootDir>/__tests__/*.test.js"
+    ],
+    "transformIgnorePatterns": [
+      "!node_modules/react-runtime"
+    ]
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "devDependencies": {
+    "@testing-library/react": "^11.2.7",
+    "jest-dom": "^4.0.0",
+    "react-test-renderer": "^17.0.2"
+  }
+}
